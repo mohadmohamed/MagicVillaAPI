@@ -1,0 +1,14 @@
+﻿using MagicVilla_VillaAPI.Models.Dto;
+
+namespace MagicVilla_VillaAPI.Data
+{
+    public static class VillaStore
+    {
+        public static List<VillaDTO> villaList = new List<VillaDTO>
+        {
+            new VillaDTO { Id = 1, Name = "Pool View", CreatedDate = DateTime.Now },
+            new VillaDTO { Id = 2, Name = "Beach View", CreatedDate = DateTime.Now },
+            new VillaDTO { Id = 3, Name = "Mountain View", CreatedDate = DateTime.Now }
+        };
+    }
+}
